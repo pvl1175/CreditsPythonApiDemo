@@ -5,4 +5,3 @@ python -m venv env
 call env\Scripts\activate.bat
 pip install thrift
 pip install base58
-exit

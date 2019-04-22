@@ -1,2 +1,2 @@
-env/Scripts/activate
-python app.py
+env/bin/activate
+python3 app.py

@@ -4,13 +4,13 @@ import base58
 
 from api.API import Client
 
-publicKey = '5B3YXqDTcWQFGAqEJQJP3Bg1ZK8FFtHtgCiFLT5VAxpe'
+publicKey = '[your public key]'
 
 publicKeyBytes = base58.b58decode(publicKey)
 
 try:
 
-   tr = TSocket('169.38.89.217', 9090)
+   tr = TSocket('[your node ip address]', 9090)
    protocol = TBinaryProtocol(tr)
    client = Client(protocol)
    tr.open()

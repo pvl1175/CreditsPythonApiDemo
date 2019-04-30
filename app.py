@@ -4,7 +4,7 @@ import base58
 
 from api.API import Client
 
-publicKey = '5B3YXqDTcWQFGAqEJQJP3Bg1ZK8FFtHtgCiFLT5VAxpe'
+publicKey = 'your address'
 
 publicKeyBytes = base58.b58decode(publicKey)
 

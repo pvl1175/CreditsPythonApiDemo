@@ -10,7 +10,7 @@ publicKeyBytes = base58.b58decode(publicKey)
 
 try:
 
-   tr = TSocket('169.38.89.217', 9090)
+   tr = TSocket('127.0.0.1', 9090)
    protocol = TBinaryProtocol(tr)
    client = Client(protocol)
    tr.open()

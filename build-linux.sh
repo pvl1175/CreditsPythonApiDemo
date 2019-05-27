@@ -1,6 +1,6 @@
-git clone https://github.com/CREDITSCOM/CS-API
-thrift -gen py -out . ./CS-API/general.thrift
-thrift -gen py -out . ./CS-API/api.thrift
+git clone https://github.com/CREDITSCOM/thrift-interface-definitions
+thrift -gen py -out . ./thrift-interface-definitions/general.thrift
+thrift -gen py -out . ./thrift-interface-definitions/api.thrift
 python3 -m venv env
 chmod +x env/bin/activate
 env/bin/activate
